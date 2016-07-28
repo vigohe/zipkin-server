@@ -1,7 +1,7 @@
 spring:
   datasource:
     schema: classpath:/mysql.sql
-    url: jdbc:mysql://localhost}:3306/$zipkin?verifyServerCertificate=false&useSSL=false
+    url: jdbc:mysql://localhost:3306/$zipkin?verifyServerCertificate=false&useSSL=false
     username: root
     password: root
 # Switch this on to create the schema on startup:
