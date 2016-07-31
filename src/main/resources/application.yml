@@ -12,11 +12,6 @@ spring:
     enabled: false
 zipkin:
   storage:
-    type:
-      mysql:
-        host: localhost
-        port: 3306
-        username: root
-        password: root
+    type: mysql
 server:
   port: 9411
